@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFCF37D72D26487000AE026B /* milliondollarappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF37D62D26487000AE026B /* milliondollarappApp.swift */; };
+		BFCF37D92D26487000AE026B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF37D82D26487000AE026B /* ContentView.swift */; };
+		BFCF37DB2D26487200AE026B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCF37DA2D26487200AE026B /* Assets.xcassets */; };
+		BFCF37DF2D26487200AE026B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCF37DE2D26487200AE026B /* Preview Assets.xcassets */; };
+		BFCF37E92D26487200AE026B /* milliondollarappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF37E82D26487200AE026B /* milliondollarappTests.swift */; };
+		BFCF37F32D26487200AE026B /* milliondollarappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF37F22D26487200AE026B /* milliondollarappUITests.swift */; };
+		BFCF37F52D26487200AE026B /* milliondollarappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF37F42D26487200AE026B /* milliondollarappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFCF37E52D26487200AE026B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCF37CB2D26486F00AE026B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCF37D22D26486F00AE026B;
+			remoteInfo = milliondollarapp;
+		};
+		BFCF37EF2D26487200AE026B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCF37CB2D26486F00AE026B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCF37D22D26486F00AE026B;
+			remoteInfo = milliondollarapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFCF37D32D26487000AE026B /* milliondollarapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = milliondollarapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCF37D62D26487000AE026B /* milliondollarappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milliondollarappApp.swift; sourceTree = "<group>"; };
+		BFCF37D82D26487000AE026B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFCF37DA2D26487200AE026B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCF37DC2D26487200AE026B /* milliondollarapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = milliondollarapp.entitlements; sourceTree = "<group>"; };
+		BFCF37DE2D26487200AE026B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFCF37E42D26487200AE026B /* milliondollarappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = milliondollarappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCF37E82D26487200AE026B /* milliondollarappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milliondollarappTests.swift; sourceTree = "<group>"; };
+		BFCF37EE2D26487200AE026B /* milliondollarappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = milliondollarappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCF37F22D26487200AE026B /* milliondollarappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milliondollarappUITests.swift; sourceTree = "<group>"; };
+		BFCF37F42D26487200AE026B /* milliondollarappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milliondollarappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCF37D02D26486F00AE026B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCF37E12D26487200AE026B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCF37EB2D26487200AE026B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFCF37CA2D26486F00AE026B = {
+			isa = PBXGroup;
+			children = (
+				BFCF37D52D26487000AE026B /* milliondollarapp */,
+				BFCF37E72D26487200AE026B /* milliondollarappTests */,
+				BFCF37F12D26487200AE026B /* milliondollarappUITests */,
+				BFCF37D42D26487000AE026B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCF37D42D26487000AE026B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF37D32D26487000AE026B /* milliondollarapp.app */,
+				BFCF37E42D26487200AE026B /* milliondollarappTests.xctest */,
+				BFCF37EE2D26487200AE026B /* milliondollarappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCF37D52D26487000AE026B /* milliondollarapp */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF37D62D26487000AE026B /* milliondollarappApp.swift */,
+				BFCF37D82D26487000AE026B /* ContentView.swift */,
+				BFCF37DA2D26487200AE026B /* Assets.xcassets */,
+				BFCF37DC2D26487200AE026B /* milliondollarapp.entitlements */,
+				BFCF37DD2D26487200AE026B /* Preview Content */,
+			);
+			path = milliondollarapp;
+			sourceTree = "<group>";
+		};
+		BFCF37DD2D26487200AE026B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF37DE2D26487200AE026B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFCF37E72D26487200AE026B /* milliondollarappTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF37E82D26487200AE026B /* milliondollarappTests.swift */,
+			);
+			path = milliondollarappTests;
+			sourceTree = "<group>";
+		};
+		BFCF37F12D26487200AE026B /* milliondollarappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF37F22D26487200AE026B /* milliondollarappUITests.swift */,
+				BFCF37F42D26487200AE026B /* milliondollarappUITestsLaunchTests.swift */,
+			);
+			path = milliondollarappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCF37D22D26486F00AE026B /* milliondollarapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCF37F82D26487200AE026B /* Build configuration list for PBXNativeTarget "milliondollarapp" */;
+			buildPhases = (
+				BFCF37CF2D26486F00AE026B /* Sources */,
+				BFCF37D02D26486F00AE026B /* Frameworks */,
+				BFCF37D12D26486F00AE026B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = milliondollarapp;
+			productName = milliondollarapp;
+			productReference = BFCF37D32D26487000AE026B /* milliondollarapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFCF37E32D26487200AE026B /* milliondollarappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCF37FB2D26487200AE026B /* Build configuration list for PBXNativeTarget "milliondollarappTests" */;
+			buildPhases = (
+				BFCF37E02D26487200AE026B /* Sources */,
+				BFCF37E12D26487200AE026B /* Frameworks */,
+				BFCF37E22D26487200AE026B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCF37E62D26487200AE026B /* PBXTargetDependency */,
+			);
+			name = milliondollarappTests;
+			productName = milliondollarappTests;
+			productReference = BFCF37E42D26487200AE026B /* milliondollarappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFCF37ED2D26487200AE026B /* milliondollarappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCF37FE2D26487200AE026B /* Build configuration list for PBXNativeTarget "milliondollarappUITests" */;
+			buildPhases = (
+				BFCF37EA2D26487200AE026B /* Sources */,
+				BFCF37EB2D26487200AE026B /* Frameworks */,
+				BFCF37EC2D26487200AE026B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCF37F02D26487200AE026B /* PBXTargetDependency */,
+			);
+			name = milliondollarappUITests;
+			productName = milliondollarappUITests;
+			productReference = BFCF37EE2D26487200AE026B /* milliondollarappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCF37CB2D26486F00AE026B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BFCF37D22D26486F00AE026B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BFCF37E32D26487200AE026B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BFCF37D22D26486F00AE026B;
+					};
+					BFCF37ED2D26487200AE026B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BFCF37D22D26486F00AE026B;
+					};
+				};
+			};
+			buildConfigurationList = BFCF37CE2D26486F00AE026B /* Build configuration list for PBXProject "milliondollarapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCF37CA2D26486F00AE026B;
+			productRefGroup = BFCF37D42D26487000AE026B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCF37D22D26486F00AE026B /* milliondollarapp */,
+				BFCF37E32D26487200AE026B /* milliondollarappTests */,
+				BFCF37ED2D26487200AE026B /* milliondollarappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCF37D12D26486F00AE026B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCF37DF2D26487200AE026B /* Preview Assets.xcassets in Resources */,
+				BFCF37DB2D26487200AE026B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCF37E22D26487200AE026B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCF37EC2D26487200AE026B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCF37CF2D26486F00AE026B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCF37D92D26487000AE026B /* ContentView.swift in Sources */,
+				BFCF37D72D26487000AE026B /* milliondollarappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCF37E02D26487200AE026B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCF37E92D26487200AE026B /* milliondollarappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCF37EA2D26487200AE026B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCF37F32D26487200AE026B /* milliondollarappUITests.swift in Sources */,
+				BFCF37F52D26487200AE026B /* milliondollarappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFCF37E62D26487200AE026B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCF37D22D26486F00AE026B /* milliondollarapp */;
+			targetProxy = BFCF37E52D26487200AE026B /* PBXContainerItemProxy */;
+		};
+		BFCF37F02D26487200AE026B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCF37D22D26486F00AE026B /* milliondollarapp */;
+			targetProxy = BFCF37EF2D26487200AE026B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFCF37F62D26487200AE026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFCF37F72D26487200AE026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BFCF37F92D26487200AE026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = milliondollarapp/milliondollarapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"milliondollarapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L2794TA8F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ABP.milliondollarapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFCF37FA2D26487200AE026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = milliondollarapp/milliondollarapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"milliondollarapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L2794TA8F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ABP.milliondollarapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFCF37FC2D26487200AE026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L2794TA8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ABP.milliondollarappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/milliondollarapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/milliondollarapp";
+			};
+			name = Debug;
+		};
+		BFCF37FD2D26487200AE026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L2794TA8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ABP.milliondollarappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/milliondollarapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/milliondollarapp";
+			};
+			name = Release;
+		};
+		BFCF37FF2D26487200AE026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L2794TA8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ABP.milliondollarappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = milliondollarapp;
+			};
+			name = Debug;
+		};
+		BFCF38002D26487200AE026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L2794TA8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ABP.milliondollarappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = milliondollarapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCF37CE2D26486F00AE026B /* Build configuration list for PBXProject "milliondollarapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCF37F62D26487200AE026B /* Debug */,
+				BFCF37F72D26487200AE026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCF37F82D26487200AE026B /* Build configuration list for PBXNativeTarget "milliondollarapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCF37F92D26487200AE026B /* Debug */,
+				BFCF37FA2D26487200AE026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCF37FB2D26487200AE026B /* Build configuration list for PBXNativeTarget "milliondollarappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCF37FC2D26487200AE026B /* Debug */,
+				BFCF37FD2D26487200AE026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCF37FE2D26487200AE026B /* Build configuration list for PBXNativeTarget "milliondollarappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCF37FF2D26487200AE026B /* Debug */,
+				BFCF38002D26487200AE026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCF37CB2D26486F00AE026B /* Project object */;
+}
